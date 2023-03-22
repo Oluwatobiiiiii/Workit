@@ -328,7 +328,7 @@ footer{
 
 /* MEDIA RESPONSIVITY FOR LAPTOPS */
 
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 1000px) {
     
     .phone-mockup{
         width: 50%;
