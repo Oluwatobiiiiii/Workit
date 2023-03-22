@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fraunces', serif;
+}
+
+:root{
+    --blue-color--: #24053E;
+    --green-color--: #44FFA1;
+    --grey-color--: #584D62;
+    --greyy-color--: #FCF8FF;
+    --white-color--: #FFFFFF;
+}
+
+#navbar{
+    width: 100%;
+    height: 25em;
+    background-color: #24053E;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    position: absolute;
+}
+
+.navbar-main{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.workit-btn{
+    cursor: pointer;
+}
+
+.workit-button{
+    width: 140px;
+    height: 40px;
+    background-color: #24053E;
+    border: none;
+}
+
+.btn-link{
+    color: var(--white-color--);
+    text-decoration: underline var(--green-color--) ;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-link:hover{
+color: #44FFA1;
+}
+
+.pattern-1{
+    display: none;
+}
+
+.pattern-2{
+    display: none;
+}
+
+#intro-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 8rem;
+    gap: 15px;
+}
+
+.intro-section-1{
+    color: var(--white-color--);
+    text-align: center;
+    line-height: 34px line-spacing; 
+}
+
+.intro-section-1 > h1{
+    margin-bottom: 1rem;
+    font-weight: 300;
+    font-size: 54px;
+}
+
+span{
+    text-decoration: underline var(--green-color--);
+}
+
+.intro{
+    width: 100px;
+    height: 30px;
+    background-color: var(--green-color--);
+    border: none;
+}
+
+.intro-section-2{
+    display: flex;
+    justify-content: center;
+}
+
+.phone-mockup{
+    width: 70%;
+    height: 70%;
+}
+
+/* FEATURES SECTION */
+
+#features{
+    position: relative;
+    margin-top: 10rem;
+}
+
+.features-texts{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.one{
+    width: 50px;
+    height: 50px;
+    margin-left: 45%;
+    margin-right: 25%;
+    border-radius: 50%;
+    border: 1px solid var(--blue-color--);
+    padding: .5rem;
+}
+
+.feature-1 >h2{
+    color: #24053E;
+    line-height: 46px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.feature-1 > p{
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--blue-color--);
+}
+
+.two{
+    width: 50px;
+    height: 50px;
+    margin-left: 45%;
+    margin-right: 25%;
+    border-radius: 50%;
+    border: 1px solid var(--blue-color--);
+    padding: .5rem;
+}
+
+.feature-2 >h2{
+    color: #24053E;
+    line-height: 46px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.feature-2 > p{
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--blue-color--);
+}
+
+
+.three{
+    width: 50px;
+    height: 50px;
+    margin-left: 45%;
+    margin-right: 25%;
+    border-radius: 50%;
+    border: 1px solid var(--blue-color--);
+    padding: .5rem;
+}
+
+.feature-3 >h2{
+    color: #24053E;
+    line-height: 46px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.feature-3 > p{
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--blue-color--);
+}
+
+
+#ceo{
+    position: relative;
+    margin-top: 5rem;
+}
+
+.ceo-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ceo-img{
+    flex: 50%;
+    position: absolute;
+}
+
+.CEO-Pic{
+    width: 50%;
+    height: 50%;
+    margin-left: 6rem;
+}
+
+.ceo-text{
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+    top: 190px;
+    width: 430px;
+    height: 250px;
+    background-color: var(--blue-color--);
+    color: var(--white-color--);
+    line-height: 32px;
+}
+
+.cta{
+    width: 150px;
+    height: 50px;
+    background-color: #44FFA1;
+    border: none;
+    color: var(--white-color--);
+    cursor: pointer;
+    margin-top: .5rem;
+}
+
+.cta:hover{
+    background-color: transparent;
+    border: 1px solid var(--green-color--);
+}
+
+.cta-link:hover{
+    color: var(--green-color--);
+}
+
+.cta-link{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    width: 100%;
+    margin-top: 13rem;
+}
+
+.workit-socials{
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.coding-ninja{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--blue-color--);
+}
+
+.coding-ninja:hover{
+    color: #44FFA1;
+}
+
+
+/* media responsivity for tablets */
+
+
+@media screen and (min-width:750px){
+    .intro-section-1{
+        position: relative;
+        margin-top: 1rem;
+        width: 400px;
+    }
+
+    .features-texts{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 5rem;
+    }
+
+    .feature-1{
+        justify-content: left;
+    }
+
+    .one{
+        margin-left: unset;
+    }
+
+    .two{
+        margin-left: unset;
+    }
+
+    .three{
+        margin-left: unset;
+    }
+
+    .ceo-article{
+        display: flex;
+        flex-direction: row;
+        margin-left: 8rem;
+    }
+
+    .ceo-text{
+        left: 250px;
+        text-align: left;
+    }
+    
+}
+
+/* MEDIA RESPONSIVITY FOR LAPTOPS */
+
+@media screen and (min-width: 940px) {
+    
+    .phone-mockup{
+        width: 50%;
+        height: 50%;
+    }
+    
+    
+    
+    .features-texts{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10px;
+    }
+
+    .one{
+        margin-left: 10rem;
+    }
+
+    .two-circle{
+        margin-left: 10rem;
+    }
+
+    .three{
+        margin-left: 10rem;
+    }
+
+    .CEO-Pic{
+        width: 35%;
+        height: 35%;
+    }
+
+    .ceo-text{
+        width: 450px;
+        height: 300px;
+        padding-top: 3rem;
+    }
+
+
+}

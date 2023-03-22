@@ -3,14 +3,112 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Workit</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
+        <!-- NAVBAR -->
+        <section id="navbar">
+            <div class="navbar-main">
+                <div class="navbar-logo">
+                    <img class="workit-logo" src="images/logo-light.svg" alt="workit-logo">
+                </div>
+
+                <div class="workit-btn">
+                    <button class="workit-button"><a class="btn-link" href="#">Apply for access</a></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- INTRO SECTION -->
+        <section id="intro-section">
+            <div class="intro-section-1"  data-aos="fade-right" data-aos-offset="450" data-aos-easing="ease-in-sine">
+                <h1>Data <span>tailored</span> to your needs.</h1>
+                <button class="intro">Learn more</button>
+            </div>
+
+            <div class="intro-section-2" data-aos="fade-right">
+                <img class="phone-mockup" src="images/image-hero.webp" alt="phone">
+            </div>
+        </section>
+
+        <!-- FEATURES SECTION -->
+        <section id="features">
+            <div class="features-texts">
+                <div class="feature-1" data-aos="zoom-in-up">
+                    <div class="one">
+                        <h1>1</h1>
+                    </div>    
+                    <h2>Actionable insights</h2>
+                    <p>Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
+                </div>
+
+                <div class="feature-2" data-aos="zoom-in-up">
+                    <div class="two-circle">
+                        <div class="two">
+                            <h1>2</h1>
+                        </div>
+                    </div>
+                    <h2>Data-driven decisions</h2>
+                    <p>Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.</p>
+                </div>
+
+                <div class="feature-3" data-aos="zoom-in-up">
+                    <div class="three">
+                        <h1>3</h1>
+                    </div>
+                    <h2>Always affordable</h2>
+                    <p>Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CEO SPEECH -->
+
+        <section id="ceo">
+            <div class="ceo-article">
+                <div class="ceo-img" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                    <img class="CEO-Pic" src="images/image-founder.webp" alt="Louis Graham">
+                </div>
+
+                <div class="ceo-text" data-aos="fade-right"
+                data-aos-offset="350"
+                data-aos-easing="ease-in-sine">
+                    <h1>Be the first to test</h1>
+                    <p>Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.</p>
+                    <button class="cta"><a class="cta-link" href="#">Apply for access</a></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER-SECTION -->
+        <footer>
+            <div class="footer-logo">
+                <img class="footer-img" src="images/logo-dark.svg" alt="Footer-LOGO">
+            </div>
+
+            <div class="workit-socials">
+                <img src="images/icon-facebook.svg" alt="icon-facebook">
+                <img src="images/icon-twitter.svg" alt="icon-twitter">
+                <img src="images/icon-instagram.svg" alt="icon-instagram">
+            </div>
+
+            <div class="copy-right">
+                <a class="coding-ninja" href="http://">&copy; CodingNinja 2023.</a>
+            </div>
+        </footer>
         
-        
-        <script src="app.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
     </body>
 </html>
