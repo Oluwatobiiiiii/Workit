@@ -126,11 +126,11 @@ span{
 
 .features-texts{
     display: flex;
-    gap: 25px;
+    gap: 35px;
     flex-direction: column;
     text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1,5rem;
     max-width: 100%;
 }
 
