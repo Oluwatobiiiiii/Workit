@@ -216,7 +216,6 @@ span{
     align-items: center;
     margin-left: 1rem;
     margin-right: 1rem;
-    padding-top: 5rem;
 }
 
 .ceo-img{
@@ -235,7 +234,7 @@ span{
     position: relative;
     text-align: center;
     top: 190px;
-    width: 430px;
+    max-width: 430px;
     height: 250px;
     background-color: var(--blue-color--);
     color: var(--white-color--);
@@ -329,6 +328,10 @@ footer{
         margin-left: unset;
     }
 
+    .CEO-Pic{
+        margin-top: 7rem;
+    }
+
     .ceo-article{
         display: flex;
         flex-direction: row;
@@ -377,14 +380,16 @@ footer{
     }
 
     .CEO-Pic{
-        width: 35%;
+        max-width: 35%;
         height: 35%;
     }
 
     .ceo-text{
-        width: 450px;
+        max-width: 450px;
         height: 300px;
         padding-top: 3rem;
+        margin-top: 5rem;
+        margin-right: 2rem;
     }
 
 
