@@ -34,7 +34,9 @@ p{
 }
 
 .navbar-main{
-    padding: 1rem;
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -111,7 +113,7 @@ span{
 }
 
 .phone-mockup{
-    width: 70%;
+    max-width: 70%;
     height: 70%;
 }
 
@@ -127,6 +129,9 @@ span{
     gap: 25px;
     flex-direction: column;
     text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 100%;
 }
 
 .one{
@@ -209,6 +214,8 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .ceo-img{
@@ -217,7 +224,7 @@ span{
 }
 
 .CEO-Pic{
-    width: 50%;
+    max-width: 50%;
     height: 50%;
     margin-left: 6rem;
 }
@@ -322,7 +329,8 @@ footer{
     .ceo-article{
         display: flex;
         flex-direction: row;
-        margin-left: 8rem;
+        margin-top: 3rem;
+        margin-left: 3rem;
     }
 
     .ceo-text{
@@ -337,7 +345,7 @@ footer{
 @media screen and (min-width: 1000px) {
     
     .phone-mockup{
-        width: 50%;
+        max-width: 50%;
         height: 50%;
     }
     
@@ -349,7 +357,8 @@ footer{
         text-align: center;
         align-items: center;
         justify-content: space-between;
-        margin-left: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .one{
