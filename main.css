@@ -335,13 +335,15 @@ footer{
     .ceo-article{
         display: flex;
         flex-direction: row;
-        margin-top: 3rem;
         margin-left: 3rem;
     }
 
     .ceo-text{
         left: 250px;
         text-align: left;
+        padding-top: 2rem;
+        margin-top: 6rem;
+        margin-left: 4rem;
     }
     
 }
